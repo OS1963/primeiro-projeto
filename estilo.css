@@ -1,0 +1,176 @@
+/* Formatações padrão de todas página */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+   background: url(imagens/fundo.png);
+}
+
+#principal{
+    width: 950px;
+    margin: auto;
+    /* border: 1px solid red; */
+}
+
+h1{
+    font-size:1.6em;
+    margin: 20px 0px;
+}
+
+h2{
+    padding-bottom: 6px;
+    padding-top: 8px;
+}
+
+p{
+    margin-bottom: 20px;
+    font-size:1.2em;
+}
+
+footer{
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+/* Customizando o topo */
+#menu-principal{
+    /* border: 1px solid blue; */
+    /* background: url(imagens/logo.png) no-repeat center top; */
+    margin-top: 20px;
+    height: 250px;
+}
+
+.logo{
+    margin: auto;
+    width: 150px;
+    height: 150px;
+    background: url(imagens/logo.png) no-repeat center;
+    text-indent: -8000px;
+    padding-bottom: 40px;
+}
+
+/* Customizando o menu */
+
+#menu ul{
+    list-style: none;
+    background-color:cyan;
+    float: left;
+    position: relative;
+    left: 100px;
+}
+
+#menu ul li{
+    float: left;
+}
+
+#menu ul a{
+    /* border: 1px solid red; */
+    text-decoration: none;
+    display: block;
+    width: 190px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: black;
+    background: url(imagens/divisor.png) no-repeat;
+}
+
+/* formatando o Estado hover*/ 
+#menu ul a:hover,
+a{
+    background-color:cadetblue;
+    color: white;
+}
+
+/*Marcando página atual */
+/* body#home #menu li.home, */
+
+
+body#home #menu a.home,
+body#servico #menu a.servico,
+body#quem-somos #menu a.quem-somos,
+body#contato #menu a.contato{
+    background-color:cadetblue;
+    color: white;
+}
+
+
+/* Customizando os serviços */
+#servicos ul{
+    list-style: none;
+    
+}
+#servicos h2{
+    font-size: 2em;
+    text-align: center;
+}
+
+#servicos ul li{
+    border: 2px solid white;
+    background-color: violet;
+    font-size: 1.4em;
+    height: 60px;
+    width: 469px;
+    text-align: center;
+    line-height: 60px;
+    color: white;
+}
+
+/* Para formar duas tabelas uma ao lado da outra na area de servicos*/
+.ao_lado{
+    float: left;
+}
+
+/* Formatando forma de contatos */
+#menu-contato ul{
+    list-style: none;
+}
+#menu-contato ul{
+    position: relative;
+    background: url(imagens/rede1.png) no-repeat center left;
+}
+#menu-contato ul a{
+    background: none;
+    color: black;
+    display: block;
+    text-decoration: none;
+    line-height: 50px;
+    width: 99px;
+    height: 48px;
+    font-size: 1.3em;
+    padding-left: 50px;
+    border: 1px solid #fff;
+}
+
+#menu-contato ul a:hover{
+    background-color: blueviolet;
+    color: cornsilk;
+    text-indent: -14px;
+}
+
+/* formatando endereço */
+#endereco address{
+    padding: 0px;
+    font-size: 1.1em;
+}
+
+#endereco h2{
+    margin-top: 15px;
+}
+
+#endereco a{
+    text-decoration: none;
+    background: none;
+    color: black;
+}
+
+#endereco a:hover{
+    background-color: blueviolet;
+    color: white;
+    padding: 5px;
+}
+
